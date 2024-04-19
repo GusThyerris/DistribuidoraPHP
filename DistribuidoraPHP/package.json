@@ -11,6 +11,7 @@
         "vite": "^5.0"
     },
     "dependencies": {
+        "mdb-ui-kit": "^7.2.0",
         "startbootstrap-shop-homepage": "^5.0.6"
     }
 }

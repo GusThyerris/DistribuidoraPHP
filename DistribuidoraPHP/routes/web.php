@@ -1,20 +1,24 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdministradorController;
 use App\Http\Controllers\ClienteController; 
 use App\Http\Controllers\LogisticaController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Rotas da Web
 |--------------------------------------------------------------------------
 |
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
+| Aqui é onde você pode registrar as rotas da web para sua aplicação. Estas
+| rotas são carregadas pelo RouteServiceProvider e todas elas serão atribuídas
+| ao grupo de middleware "web". Faça algo ótimo!
 |
 */
 
-Route::get('/',[ClienteController::class,'showHomeClie'])->name('homeClie');
+Route::get('/', [ClienteController::class, 'showHomeClie'])->name('homeClie');
+Route::get('/cadastrar-pedido',[ClienteController::class,'showCadastrarPedido'])->name('show-cadastrar-pedido');
 
-Route::get('/homeLog',[LogisticaController::class,'showHomeLog'])->name('homeLog');
+Route::get('/homeLog', [LogisticaController::class, 'showHomeLog'])->name('homeLog');
+
+Route::get('/homeAdm', [AdministradorController::class, 'showHomeAdm'])->name('homeAdm');

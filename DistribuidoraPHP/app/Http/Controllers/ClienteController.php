@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Cliente;
 use App\Http\Requests\StoreClienteRequest;
 use App\Http\Requests\UpdateClienteRequest;
+use Illuminate\Http\Request;
 
 class ClienteController extends Controller
 {
@@ -14,6 +15,11 @@ class ClienteController extends Controller
         return view("homeClie");
     }
 
+    public function showCadastrarPedido(Request $request){
+        return view("cadastrarPedido");
+    }
+
+    
 
     // /**
     //  * Display a listing of the resource.

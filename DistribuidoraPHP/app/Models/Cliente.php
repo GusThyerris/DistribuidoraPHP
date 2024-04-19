@@ -9,9 +9,8 @@ class Cliente extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'nome',
-        'email',
-        'telefone',
-        'cpf',
+        'nomeClie',
+        'emailClie',
+        'senhaClie'
     ];
 }
