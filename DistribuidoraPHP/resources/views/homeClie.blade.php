@@ -84,7 +84,7 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/1.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">GoPro HERO6 4K Action Camera - Black</h5>
+                    <h5 class="card-title">Alcatra</h5>
                     <p class="card-text">$790.50</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
                     <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
@@ -97,10 +97,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/2.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Canon camera 20x zoom, Black color EOS 2000</h5>
+                    <h5 class="card-title">Picanha</h5>
                     <p class="card-text">$320.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -110,10 +110,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/3.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Xiaomi Redmi 8 Original Global Version 4GB</h5>
+                    <h5 class="card-title">Filé Mignon</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -123,10 +123,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/4.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Apple iPhone 12 Pro 6.1" RAM 6GB 512GB Unlocked</h5>
+                    <h5 class="card-title">Contrafilé</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -136,10 +136,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/5.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Apple Watch Series 1 Sport Case 38mm Black</h5>
+                    <h5 class="card-title">Acém</h5>
                     <p class="card-text">$790.50</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -149,10 +149,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/6.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Fraldinha</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -162,10 +162,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/7.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Gaming Headset 32db Blackbuilt in mic</h5>
+                    <h5 class="card-title">Coxão Mole</h5>
                     <p class="card-text">$99.50</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -175,10 +175,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Coxão Duro</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -188,10 +188,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Patinho</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -201,10 +201,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Maminha</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -214,10 +214,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Costela</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -227,10 +227,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Cupim</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -240,10 +240,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Lagarto</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -253,10 +253,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Paleta</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -266,10 +266,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Entrecôte</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>
@@ -279,10 +279,10 @@
                 <div class="card w-100 my-2 shadow-2-strong">
                 <img src="https://bootstrap-ecommerce.com/bootstrap5-ecommerce/images/items/8.webp" class="card-img-top" style="aspect-ratio: 1 / 1" />
                 <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">teste teste teste teste teste teste teste</h5>
+                    <h5 class="card-title">Costela Prime</h5>
                     <p class="card-text">$120.00</p>
                     <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                    <a href="" class="btn btn-primary shadow-0 me-1">Comprar</a>
+                    <a href="{{route('show-cadastrar-pedido')}}" class="btn btn-primary shadow-0 me-1">Comprar</a>
                     </div>
                 </div>
                 </div>

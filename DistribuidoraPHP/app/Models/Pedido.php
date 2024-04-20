@@ -12,7 +12,7 @@ class Pedido extends Model
         'cepPed',
         'ruaPed',
         'bairroPed',
-        'cidadePede',
+        'cidadePed',
         'ufPed',
         'numeroPed',
         'complPed',

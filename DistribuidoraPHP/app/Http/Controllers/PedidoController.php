@@ -5,65 +5,49 @@ namespace App\Http\Controllers;
 use App\Models\Pedido;
 use App\Http\Requests\StorePedidoRequest;
 use App\Http\Requests\UpdatePedidoRequest;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Http\Request;
+
 
 class PedidoController extends Controller
 {
 
-    
-
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
+    public function cadPedido(Request $request){
+        //dd($request);
+        $dadosValidos = $request->validate([
+            'cepPed' => 'string|required',
+            'ruaPed' => 'string|required',
+            'bairroPed' => 'string|required',
+            'cidadePed' => 'string|required',
+            'ufPed' => 'string|required',
+            'numeroPed' => 'string|required',
+            'complPed' => 'string|required',
+            'quantPed' => 'integer|required',
+            'telefonePed' => 'required',
+            'cpfPed' => 'string|required',
+        ]);
+        
+//dd($dadosValidos);
+         Pedido::create($dadosValidos);
+         return Redirect::route('homeClie');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
+    public function mostrarGerenciarPedidosId(Pedido $id){
+
+        return view('gerenciarPedidos',['registrosPedidos' => $id]);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(StorePedidoRequest $request)
-    {
-        //
+    public function  gerenciarPedidos(Request $request){
+        // dd($request);
+        $dadosPedidos = Pedido::query();
+        $dadosPedidos->when($request->cpfPed,function($query,$valor){
+            $query->where('cpfPed','like','%'.$valor.'%');
+        });
+        $dadosPedidos = $dadosPedidos->get();
+
+        return view('pedidosEmAndamento',['registrosPedidos' => $dadosPedidos]);
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(Pedido $pedido)
-    {
-        //
-    }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Pedido $pedido)
-    {
-        //
-    }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdatePedidoRequest $request, Pedido $pedido)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Pedido $pedido)
-    {
-        //
-    }
 }

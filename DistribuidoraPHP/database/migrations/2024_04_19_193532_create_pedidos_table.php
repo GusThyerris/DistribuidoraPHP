@@ -13,16 +13,16 @@ return new class extends Migration
     {
         Schema::create('pedidos', function (Blueprint $table) {
             $table->id();
-            $table->integer('cepPed');
+            $table->string('cepPed');
             $table->string('ruaPed');
             $table->string('bairroPed');
-            $table->string('cidadePede');
+            $table->string('cidadePed');
             $table->string('ufPed');
-            $table->integer('numeroPed');
+            $table->string('numeroPed');
             $table->string('complPed');
             $table->integer('quantPed');
-            $table->integer('telefonePed');
-            $table->integer('cpfPed');
+            $table->string('telefonePed');
+            $table->string('cpfPed');
             $table->timestamps();
         });
     }

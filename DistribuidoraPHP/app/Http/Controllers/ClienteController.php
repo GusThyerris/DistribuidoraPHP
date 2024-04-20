@@ -15,10 +15,10 @@ class ClienteController extends Controller
         return view("homeClie");
     }
 
+
     public function showCadastrarPedido(Request $request){
         return view("cadastrarPedido");
     }
-
     
 
     // /**
