@@ -4,6 +4,7 @@ use App\Http\Controllers\AdministradorController;
 use App\Http\Controllers\ClienteController; 
 use App\Http\Controllers\LogisticaController;
 use App\Http\Controllers\PedidoController;
+use App\Http\Controllers\CarrinhoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,7 +23,10 @@ Route::get('/', [ClienteController::class, 'showHomeClie'])->name('homeClie');
 Route::get('/cadastrar-pedido',[ClienteController::class,'showCadastrarPedido'])->name('show-cadastrar-pedido');
 
 Route::post('/cadastrar-pedido',[PedidoController::class,'cadPedido'])->name('envia-banco-pedido');
-Route::get('/pedidos-em-andamento',[PedidoController::class,'gerenciarPedidos'])->name('gerenciar-pedidos');
+// Route::get('/pedidos-em-andamento',[PedidoController::class,'gerenciarPedidos'])->name('gerenciar-pedidos');
+
+Route::get('/carrinho-de-compras', [CarrinhoController::class, 'showCarrinhoDeCompras'])->name('carrinhoDeCompras');
+Route::get('/carrinho-de-compras',[CarrinhoController::class,'gerenciarItensCarrinho'])->name('carrinhoDeCompras');
 
 Route::get('/homeLog', [LogisticaController::class, 'showHomeLog'])->name('homeLog');
 
